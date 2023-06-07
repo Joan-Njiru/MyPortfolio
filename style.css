@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(12, 10, 10);
+    color: azure;
+    margin-left: 5%;
+    
+}
+.navbar{
+    width: 70%;
+    margin-left: 30%;
+    
+}
+.navbar ul li{
+    
+    list-style: none;
+    display: inline;
+    margin: 4em;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover {
+    color: orange;
+  }
+.intro h2{
+    font-size: 30px;
+}
+#jo{
+    color: orange;
+    font-size: 50px;
+}
+
+#horizontal{
+    width: 50%;
+    margin-right: 50%;
+    
+}
+.main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 7%;
+}
+#photo{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    margin:10%;
+    border-radius: 5%;
+}
+#but{
+    border-radius: 20px;
+    padding: 8px 20px 8px 20px;
+    background: linear-gradient(white,orange);
+}
+.icons{
+    margin-left: 2%;
+}
+.skills{
+    width: 90%;
+    margin: auto;
+    
+}
+#title{
+    margin-left: 80px;
+    margin-top: 80px;
+    color: orange;
+}
+.top{
+    width: 90%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.bottom{
+    margin-top: 5%;
+    width: 90%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+#skill{
+    background-color: rgb(26, 23, 23);
+    border-radius: 10px;
+    height: 180px;
+    box-shadow: 10px 5px 5px 0px #f8b863;
+}
+#hori{
+    border-bottom: 2px solid orange;
+    width: 10%;
+    margin-left: 6.5%;
+}
