@@ -34,6 +34,7 @@ a:hover {
 }
 
 #horizontal{
+    margin-bottom: 10%;
     width: 50%;
     margin-right: 50%;
     
@@ -45,14 +46,15 @@ a:hover {
     margin-top: 7%;
 }
 #photo{
-    width: 450px;
-    height: 400px;
+    width: 400px;
+    height: 470px;
     object-fit: contain;
-    border-radius: 5px;
+    margin-left: 10%;
+    margin-top: 7%;
+    margin-bottom: 2%;
 }
 #but{
-
-    margin-top: -10%;
+    margin-top: -15%;
     border-radius: 20px;
     padding: 8px 20px 8px 20px;
     background: linear-gradient(white,orange);
@@ -64,6 +66,7 @@ a:hover {
 .skills{
     width: 90%;
     margin: auto;
+    margin: 10% 0%;
     
 }
 #title{
