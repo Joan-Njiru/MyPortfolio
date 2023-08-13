@@ -45,19 +45,20 @@ a:hover {
     margin-top: 7%;
 }
 #photo{
-    width: 350px;
-    height: 250px;
-    object-fit: cover;
-    margin:10%;
-    border-radius: 5%;
+    width: 450px;
+    height: 400px;
+    object-fit: contain;
+    border-radius: 5px;
 }
 #but{
+
+    margin-top: -10%;
     border-radius: 20px;
     padding: 8px 20px 8px 20px;
     background: linear-gradient(white,orange);
 }
 .icons{
-    margin-left: 2%;
+    margin-left: 1.5%;
     margin-bottom: 5%;
 }
 .skills{
